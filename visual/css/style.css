@@ -1,0 +1,390 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#stats {
+    position: fixed;
+    color: rgb(0, 0, 0);
+    font-size: 80%;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
+}
+
+#timer {
+    position: fixed;
+    color: rgb(0, 0, 0);
+    font-size: 85%;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+#ul_top_hypers li {
+    float: right;
+}
+
+input {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+}
+
+.navbar {
+    height: 30px;
+}
+
+#algo_panel {
+    background: transparent;
+}
+
+.navbar-right {
+    font-size: medium;
+    color: #FFFDBD;
+    font-weight: bold;
+    font-family: Dosis;
+}
+
+#button1,
+#button2,
+#button3,
+#button4 {
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+
+#button1:hover,
+#button2:hover,
+#button3:hover,
+#button4:hover {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+#speed {
+    font-size: medium;
+    color: #FFFDBD;
+    font-weight: bold;
+    font-family: Dosis;
+    opacity: 1;
+}
+
+.navbar-right:hover {
+    font-size: medium;
+    color: #FFFDBD;
+    font-weight: bold;
+    font-family: Dosis;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    margin: 17px 0px;
+    background: #ffffff;
+    border-radius: 5px;
+    outline: none;
+    opacity: 0.9;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 35px;
+    cursor: pointer;
+    background: url("https://cdn1.iconfinder.com/data/icons/natural-world/360/fire-flame_16-512.png");
+    background-size: 35px 35px;
+}
+
+#slow,
+#medium,
+#fast {
+    margin: 1em;
+}
+
+#sl {
+    color: rgb(255, 238, 0);
+}
+
+#me {
+    color: orange;
+}
+
+#fa {
+    color: orangered;
+}
+
+#maze {
+    height: 220px;
+    width: 139px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.8;
+    padding-top: 10px;
+}
+
+#obstacles {
+    width: 103px;
+    height: 125px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.8;
+    padding-top: 10px;
+}
+
+.maze_button:hover {
+    color: rgb(218, 137, 106);
+}
+
+.obstacle_button:hover {
+    color: rgb(218, 137, 106);
+}
+
+.obstacle_button {
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    margin: 5px;
+    font-family: Didact Gothic;
+}
+
+.maze_button {
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    margin: 5px;
+    font-family: Didact Gothic;
+}
+
+.finder_section {
+    height: 400px;
+    width: 300px;
+}
+
+.navbar-inverse {
+    height: 30px;
+}
+
+#brand {
+    font-family: Julius Sans One;
+    background-color: black;
+    font-weight: bolder;
+    color: red;
+    font-size: x-large;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+}
+
+#genmaze:hover #tooltipgenmaze {
+    visibility: visible;
+}
+
+#genobs:hover #tooltipgenobs {
+    visibility: visible;
+}
+
+#genalgo:hover #tooltipgenalgo {
+    visibility: visible;
+}
+
+.header_title {
+    font-size: medium;
+    color: #FFFDBD;
+    font-weight: bold;
+    font-family: Dosis;
+}
+
+.panel {
+    position: fixed;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: default;
+    opacity: 0.8;
+}
+
+#algorithm_panel {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: default;
+}
+
+.intro_title {
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Dosis;
+}
+
+#intro_panel {
+    top: 60px;
+    left: 20px;
+    width: 550px;
+}
+
+#hide_intro {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    font-size: 90%;
+    cursor: pointer;
+}
+
+#hide_intro:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.bot_title {
+    font-size: medium;
+    color: rgb(103, 158, 0);
+    font-weight: bold;
+    font-family: Roboto Mono;
+    text-align: center;
+}
+
+#bot_panel {
+    top: 60px;
+    right: 20px;
+    width: 350px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.bot_content {
+    border-style: dashed;
+    border-color: rgb(99, 153, 0);
+    color: rgb(252, 252, 252);
+    font-family: Roboto Mono;
+    font-size: medium;
+    padding: 15px;
+}
+
+#hide_bot {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    font-size: 110%;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: crimson;
+    font-family: Julius Sans One;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#hide_bot:hover {
+    color: rgb(119, 14, 14);
+    text-decoration: underline;
+}
+
+.option_header {
+    font-size: 80%;
+    margin-left: 20px;
+}
+
+.option_label {
+    cursor: pointer;
+    font-family: Didact Gothic;
+}
+
+.control_button {
+    border: red;
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 2px 8px;
+    font-weight: bold;
+}
+
+.finder_section {
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.sub_options {
+    padding: 2px;
+    font-size: 14px;
+    margin: 2px 30px 0;
+}
+
+#stats {
+    position: fixed;
+    bottom: 40px;
+    left: 35px;
+    color: #0a0;
+    font-size: 85%;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+.white {
+    color: #fff;
+}
+
+.green {
+    color: #0d0;
+}
+
+.red {
+    color: #ff9166;
+}
+
+.spinner {
+    width: 2em;
+    color: black;
+}
+
+.weight {
+    background-color: rgb(255, 254, 106);
+    background-image: url(weight.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
