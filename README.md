@@ -11,13 +11,13 @@ This is the Javascript based webapp for navigating the mars rover using various 
 - Rendering using Travelling salesman algorithm.
 - Dynamic Rendering of path through just drag and drop The shortest path is dynamically visible if user even after search is over drags the nodes.
 	
-![Test Image 1](https://github.com/Akshayakayy/Space_Invaders/blob/master/visual/images/gifs/checkpoints.gif)
-![Test Image 1](https://github.com/Akshayakayy/Space_Invaders/blob/master/visual/images/gifs/search.gif)
-![Test Image 1](https://github.com/Akshayakayy/Space_Invaders/blob/master/visual/images/gifs/clearall.gif)
+![Test Image 1](https://github.com/tathagata-raha/mars-rover-navigator/blob/master/visual/images/gifs/checkpoints.gif)
+![Test Image 1](https://github.com/tathagata-raha/mars-rover-navigator/blob/master/visual/images/gifs/search.gif)
+![Test Image 1](https://github.com/tathagata-raha/mars-rover-navigator/blob/master/visual/images/gifs/clearall.gif)
 
 ### Speed of visualization for pathfinder: Draggable speed control for the Rover
 
-![Test Image 1](https://github.com/Akshayakayy/Space_Invaders/blob/master/visual/images/gifs/speed.gif)
+![Test Image 1](https://github.com/tathagata-raha/mars-rover-navigator/blob/master/visual/images/gifs/speed.gif)
 
 ### Mazes of various patterns
 Implemented various types of mazes using algorithms:
@@ -26,7 +26,7 @@ Implemented various types of mazes using algorithms:
 - Dense Recursive Maze
 - Sparse Recursive Maze
 
-![Test Image 1](https://github.com/Akshayakayy/Space_Invaders/blob/master/visual/images/gifs/maze.gif)
+![Test Image 1](https://github.com/tathagata-raha/mars-rover-navigator/blob/master/visual/images/gifs/maze.gif)
 
 ### Searching algorithms:
 
@@ -59,7 +59,7 @@ The project is deployed in Azure. You can access it here: https://tathagataraha.
 #### Local running:
 - At first clone the repository:
 
-``git clone https://github.com/Akshayakayy/Space_Invaders``
+``git clone https://github.com/tathagata-raha/mars-rover-navigator``
 
 ``cd Space_Invaders``
 
